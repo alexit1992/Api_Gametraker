@@ -24,8 +24,8 @@ This is a Discord bot that fetches and displays information about game servers. 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/alexit1992/Api_Gametraker.git
-    cd BreadcrumbsApi_Gametraker
+    git clone https://github.com/alexit1992/Api_Gametraker_Discord.git
+    cd Api_Gametraker_Discord
     ```
 
 2. **Create a virtual environment and activate it**:
