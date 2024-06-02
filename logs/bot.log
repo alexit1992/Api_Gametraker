@@ -1,0 +1,279 @@
+2024-05-22 21:17:47,930:INFO:discord.client: logging in using static token
+2024-05-22 21:17:48,951:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 7c826f2e4bb1d5046bcbd41f04a55cbf).
+2024-05-22 21:17:50,955:INFO:__main__: Conectat ca ApiSystem#6741
+2024-05-22 21:17:52,413:ERROR:root: Eroare la validarea și criptarea datelor: time data '1992-04-04' does not match format '%d-%m-%Y'
+2024-05-22 21:18:38,014:ERROR:root: Eroare la validarea și criptarea datelor: time data '99-99-9999' does not match format '%d-%m-%Y'
+2024-05-22 21:18:50,341:ERROR:root: Eroare la validarea și criptarea datelor: time data '99-99-9999' does not match format '%d-%m-%Y'
+2024-05-22 21:19:01,141:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+2024-05-22 21:19:33,261:INFO:__main__: Informații server trimise pentru /server
+2024-05-22 21:19:39,615:ERROR:root: Eroare la validarea și criptarea datelor: time data '99-99-9999' does not match format '%d-%m-%Y'
+2024-05-22 21:19:39,616:INFO:__main__: Informații server trimise pentru 5.252.100.221:27015
+2024-05-22 21:19:43,100:ERROR:root: Eroare la validarea și criptarea datelor: time data '99-99-9999' does not match format '%d-%m-%Y'
+2024-05-22 21:19:52,331:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:20:12,614:ERROR:root: Eroare la validarea și criptarea datelor: time data 'OR' does not match format '%d-%m-%Y'
+2024-05-22 21:20:33,871:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:20:42,730:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:21:05,038:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:23:03,134:ERROR:root: Eroare la validarea și criptarea datelor: time data 'OR' does not match format '%d-%m-%Y'
+2024-05-22 21:23:57,667:ERROR:root: Eroare la validarea și criptarea datelor: time data "99-99-9999');" does not match format '%d-%m-%Y'
+2024-05-22 21:24:42,252:ERROR:root: Eroare la validarea și criptarea datelor: time data "99-99-9999');" does not match format '%d-%m-%Y'
+2024-05-22 21:25:02,327:ERROR:root: Eroare la validarea și criptarea datelor: time data '99-99-9999' does not match format '%d-%m-%Y'
+2024-05-22 21:25:32,370:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:25:46,270:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:26:22,604:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+2024-05-22 21:26:34,442:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:27:36,226:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:27:48,391:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:27:55,991:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:28:12,510:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '`;
+2024-05-22 21:28:44,870:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ');
+2024-05-22 21:29:06,798:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '`
+2024-05-22 21:29:13,351:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: `
+2024-05-22 21:31:17,646:INFO:__main__: Informații server trimise pentru 5.252.100.221:27015
+2024-05-22 21:31:48,247:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:31:55,503:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:32:01,082:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:32:07,381:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:32:14,416:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:32:20,203:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:32:29,421:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ';
+2024-05-22 21:32:35,880:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+2024-05-22 21:32:42,343:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+2024-05-22 21:33:04,670:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:33:12,487:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+2024-05-22 21:33:31,111:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:33:40,026:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:35:12,728:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".
+2024-05-22 21:35:27,684:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: '
+2024-05-22 21:35:34,781:ERROR:root: Eroare la validarea și criptarea datelor: unconverted data remains: ';
+2024-05-22 21:36:52,691:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:37:16,759:ERROR:discord.ext.commands.bot: Ignoring exception in command register
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 177, in get_quoted_word
+    raise UnexpectedQuoteError(current)
+discord.ext.commands.errors.UnexpectedQuoteError: Unexpected quote mark, '"', in non-quoted string
+2024-05-22 21:39:17,559:INFO:discord.client: logging in using static token
+2024-05-22 21:39:18,461:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: fc54fb031ee3287de4e218a1c5e442ba).
+2024-05-22 21:39:20,610:INFO:__main__: Conectat ca ApiSystem#6741
+2024-05-22 21:39:27,664:INFO:__main__: Informații server trimise pentru 5.252.100.221:27015
+2024-05-22 21:40:46,713:ERROR:discord.ext.commands.bot: Ignoring exception in command server
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/bot.py", line 1350, in invoke
+    await ctx.command.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 1021, in invoke
+    await self.prepare(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 938, in prepare
+    await self._parse_arguments(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 845, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 711, in transform
+    raise exc
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/core.py", line 705, in transform
+    ctx.current_argument = argument = view.get_quoted_word()
+  File "/usr/local/lib/python3.8/dist-packages/discord/ext/commands/view.py", line 151, in get_quoted_word
+    raise ExpectedClosingQuoteError(close_quote)
+discord.ext.commands.errors.ExpectedClosingQuoteError: Expected closing ".

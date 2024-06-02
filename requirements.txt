@@ -1,0 +1,10 @@
+aioschedule
+asyncio
+bcrypt
+discord.py
+discord-py-interactions
+google-api-python-client
+python-dotenv
+beautifulsoup4
+eventemitter
+gevent
