@@ -1,4 +1,3 @@
-# DiscordAPIgame
 # Discord Game Server Info Bot
 
 This is a Discord bot that fetches and displays information about game servers. It allows users to register and check the status of game servers directly from a Discord server.
