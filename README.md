@@ -1,5 +1,9 @@
 # Discord Game Server Info Bot
 
+Api Key https://gamequery.dev
+
+Api Key info to use https://gamequery.dev/docs/
+
 This is a Discord bot that fetches and displays information about game servers. It allows users to register and check the status of game servers directly from a Discord server.
 
 ## Features
@@ -20,8 +24,8 @@ This is a Discord bot that fetches and displays information about game servers. 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/alexit1992/Api_Gametraker-.git
-    cd BreadcrumbsApi_Gametraker-
+    git clone https://github.com/alexit1992/Api_Gametraker.git
+    cd BreadcrumbsApi_Gametraker
     ```
 
 2. **Create a virtual environment and activate it**:
@@ -98,12 +102,7 @@ Check that the API token is valid and has the necessary permissions.
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-javascript
-Code kopieren
 
 Replace `your_discord_bot_token`, `your_api_token`, `your_api_token_type`, `your_api_token_email`, `your_database_host`, `your_database_user`, `your_database_password`, and `your_database_name` with your actual credentials and configuration details.
 
-This README file provides a comprehensive overview of your bot, including it
