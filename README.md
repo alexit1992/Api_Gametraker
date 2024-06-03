@@ -3,7 +3,10 @@
 Api Key https://gamequery.dev
 
 Api Key info to use https://gamequery.dev/docs/
-![Screenshot 2024-05-20 191908](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/8daedfa9-fd9d-4fe7-abed-6790eb7716d4)![Screenshot 2024-05-19 123510](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/ffe2348b-6316-4749-9b18-bf144cda2734)
+![Screenshot 2024-05-19 080641](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/a6f37cdf-ad67-473d-aaa9-457b1ff06d84)
+![Screenshot 2024-06-03 025736](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/9ff275ce-5bbe-44a8-bdff-8cc40d9108e6)
+![Screenshot 2024-05-19 123510](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/dfc9ef4b-9746-4cf5-89d1-f489e680bf4a)
+
 
 This is a Discord bot that fetches and displays information about game servers. It allows users to register and check the status of game servers directly from a Discord server.
 
