@@ -52,6 +52,7 @@ This is a Discord bot that fetches and displays information about game servers. 
     API_TOKEN=your_api_token
     API_TOKEN_TYPE=your_api_token_type
     API_TOKEN_EMAIL=your_api_token_email
+    STEAM_API_KEY=your_api_token_steam
     DB_HOST=your_database_host
     DB_USER=your_database_user
     DB_PASSWORD=your_database_password
@@ -62,13 +63,23 @@ This is a Discord bot that fetches and displays information about game servers. 
     - Create a new MySQL database.
     - Create the required tables (e.g., `servers`) using the following SQL schema:
     ```sql
-    CREATE TABLE servers (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        ip VARCHAR(255) NOT NULL,
-        name VARCHAR(255),
-        map VARCHAR(255),
-        players INT
-    );
+    CREATE DATABASE your_database_name;
+USE your_database_name;
+
+CREATE TABLE servers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip VARCHAR(255) NOT NULL,
+    name VARCHAR(255),
+    map VARCHAR(255),
+    players INT
+);
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    birth_date DATE,
+    password_hash VARCHAR(255)
+);
     ```
 
 ## Usage
