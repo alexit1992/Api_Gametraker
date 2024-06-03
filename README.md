@@ -87,8 +87,7 @@ Hartă: de_dust2
 Protejat cu parolă: Nu
 
 Jucători online:
-markdown
-Code kopieren
+
 Nume                 Score
 ------------------------------
 Player1              10
