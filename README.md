@@ -3,6 +3,7 @@
 Api Key https://gamequery.dev
 
 Api Key info to use https://gamequery.dev/docs/
+
 ![Screenshot 2024-05-19 080641](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/a6f37cdf-ad67-473d-aaa9-457b1ff06d84)
 ![Screenshot 2024-06-03 025736](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/9ff275ce-5bbe-44a8-bdff-8cc40d9108e6)
 ![Screenshot 2024-05-19 123510](https://github.com/alexit1992/Api_Gametraker_Discord/assets/33940801/dfc9ef4b-9746-4cf5-89d1-f489e680bf4a)
