@@ -4,4 +4,4 @@
 /checkr @ 
 /join 
 /steamprofile 
-
+/serverbanner ip:port link img png gif
