@@ -1,14 +1,7 @@
-comezi folosite cerere Api 
-/server ip:port - merge
-/register email - merge 
-/checkr @ - merge
-/join - merge
-/steamprofile nume merge
 
+/server ip:port 
+/register email 
+/checkr @ 
+/join 
+/steamprofile 
 
-detecteaza  Mesaj  si le cenzureaza 
-
-probleme care nu sunt rezolvate 
-/role @ ?
-server country ?
-salvare in DATA BASE ? 
