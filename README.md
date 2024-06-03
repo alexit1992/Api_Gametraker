@@ -88,7 +88,7 @@ CREATE TABLE users (
 
 To start the bot, run the following command:
 ```bash
-python bot.py
+./run_bot.sh 
 Commands
 /server ip:port: Fetches and displays information about the specified game server.
 /register <email> <birth_date> <password>: Registers a new user with the provided email, birth date, and password.
